@@ -46,8 +46,19 @@ align-items: center;
     opacity: 80%;
 }
 
+.store{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50% 50% 50%;
+}
 
+.img1{
+ width: 60%
+}
 
+p{
+  font-size: 2vh ;
+}
 
 .footer{
     background: linear-gradient(to bottom right,#9db0ca,#0c1118);
