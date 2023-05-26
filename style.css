@@ -9,12 +9,15 @@
     font-weight: bold;
     background: linear-gradient(to bottom right,#0c1118,#9db0ca);
     color: azure;
-    display: flex;
-    justify-content: center;
+    display: block;
+    justify-content:center ;
 }
 
 .header ul{
 margin: 0px 20px;
+padding-bottom: 25px;
+display: flex;
+justify-content: center;
 }
 
 .header-logo{
@@ -22,8 +25,7 @@ margin: 0px 20px;
     font-size: 4em;
     display: flex;
     justify-content: center;
-    margin: 0 5px;
-    padding: 25px 30px;
+    margin: 0 ;
 }
 
 a{color: azure;
@@ -41,15 +43,18 @@ margin: 2px;
 
 .ul-header li a{
     display: block;
-    padding: 0 10px;
+    padding: 10px 10px;
     background: #7d8a9d;
     color: aliceblue;
     border-radius: 10%;
 }
 
 .main-fondo{
-    background-image:url(./img/pexels-victor-freitas-2261477.jpg);
+    background-image: url(./img/pexels-victor-freitas-2261477.jpg);
     background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     width: 100%;
     height: 70vh;
     display: flex;
@@ -76,8 +81,11 @@ margin: 2px;
 
 .store{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 50% 50% 50% 50%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 20% 20% 20% 20%;
+    column-gap: 20px;
+    row-gap: 85px;
+    margin-top: 40px;
 }
 
 .img1{
@@ -116,6 +124,82 @@ p{
     border-radius: 10%;
 }
 
-.facebook:hover{
-    background: blue;
+
+@media screen and (min-width:1000px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+    }
+    .ul-header{
+        align-content: space-around;
+        width: 70vh;
+    }
+    .ul-header li {
+        display: flex;
+        justify-items: space-evenly;
+        font-size: 3vh;
+    }
+}
+
+
+
+.store-bg{
+    width: 100%;
+    height: auto;
+    background-image: url(./img/storebg.avif);
+    background-color: rgb(207, 187, 163);
+    background-size: contain;
+    background-position:center;
+    filter: grayscale(30%);
+    background-repeat: repeat-y;
+}
+
+.title-store{
+    font-family: 'russo one', sans-serif;
+    color: azure;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin: 0 ;
+}
+
+.container1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: auto;
+    text-align: center;
+}
+
+
+
+.product-desc{
+    background-color: rgba(155, 162, 171, 0.7);
+    color: azure;
+}
+
+.product-name{
+    background-color: rgba(155, 162, 171, 0.7);
+    font-weight: bold;
+    color: azure;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:477px) {
+    .store{
+        width: 100%;
+        height:auto ;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        margin-top: 40px;
+        overflow: scroll;
+    }
+    .title-store{
+        text-align: center;
+        background-color: rgba(155, 162, 171, 0.7);
+    }
 }
