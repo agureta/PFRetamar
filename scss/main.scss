@@ -356,9 +356,91 @@ body{
 
 .main-planes{
     display: grid;
-    grid-template-columns: 2fr 50%;
-    & .plan1 {
-        display: flex;
-        justify-content: center;
+    grid-template-columns: 1 70%;
+        
+        & .plan1 {
+        grid-column: 1;
+        grid-row: 2;
+        font-size: smaller;
+        justify-self: center;
+        font-family: 'russo one', sans-serif;
+            .img1-planes{
+                width: 20vh;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                grid-column: 1;
+                grid-row: 3;
+            }
     }
+    & .plan2{
+        grid-column: 1;
+        grid-row: 4;
+        font-size: smaller;
+        justify-self: center;
+        font-family: 'russo one', sans-serif;
+        .img2-planes{
+            width: 20vh;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            grid-column: 1;
+            grid-row: 5;
+            justify-self: center;
+        }
+    }
+}
+
+.h2-planes{
+    display: flex;
+    justify-content: center;
+    font-family: 'russo one', sans-serif;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .h2-planes{
+       display: flex;
+       justify-content: center;
+       font-family: 'russo one', sans-serif;
+    }
+
+
+    .main-planes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        & .plan1{
+            grid-area: 1 / 1 / 2 / 2; 
+            font-family: 'russo one', sans-serif;
+            .img1-planes{
+                width: 40vh;
+                height: auto;
+            }
+        }
+        & .plan2{
+            grid-area: 1 / 2 / 2 / 3;
+            font-family: 'russo one', sans-serif;
+            .img2-planes{
+                width: 40vh;
+                height: auto;
+            }
+        }
+    }
+}
+
+.h2-rut{
+     display: flex;
+     justify-content: space-around;
+     font-family: 'russo one', sans-serif;
+     font-size: 3vw;
+    }
+
+.main-rutina{
+    display: block;
+    & img { display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;}
 }
