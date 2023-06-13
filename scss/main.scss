@@ -24,7 +24,11 @@ justify-content: center;
     display: flex;
     justify-content: center;
     margin: 0 ;
+    h1 a :hover{
+        color: inherit;
+    }
 }
+
 
 a{color: azure;
 text-decoration: none;
@@ -43,7 +47,12 @@ li a{
     background: #7d8a9d;
     color: aliceblue;
     border-radius: 10%;
-}}
+    font-family: 'russo one', sans-serif;
+}
+li a:hover{
+    background-color:rgb(143, 134, 122) ;
+}
+}
 
 .main-fondo{
     background-image: url(../img/pexels-victor-freitas-2261477.jpg);
@@ -112,7 +121,8 @@ ul li{
     font-size: 18px;
     box-shadow: 0 2px 2px 0px black;
     border-radius: 10%;
-}}}
+}}
+}
 
 .redes{
     ul{
@@ -234,8 +244,9 @@ body{
 
 .titulo-parrafo{
     text-decoration-line: underline;
-    
-    
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .img1-ej{
@@ -435,9 +446,12 @@ body{
      justify-content: space-around;
      font-family: 'russo one', sans-serif;
      font-size: 3vw;
+     background-color: #78818e;
+     color: aliceblue;
     }
 
 .main-rutina{
+    background-color: #78818e;
     display: block;
     & img { display: block;
         margin-left: auto;

@@ -26,6 +26,9 @@
   justify-content: center;
   margin: 0;
 }
+.header-logo h1 a :hover {
+  color: inherit;
+}
 
 a {
   color: azure;
@@ -45,6 +48,10 @@ a {
   background: #7d8a9d;
   color: aliceblue;
   border-radius: 10%;
+  font-family: "russo one", sans-serif;
+}
+.ul-header li a:hover {
+  background-color: rgb(143, 134, 122);
 }
 
 .main-fondo {
@@ -226,6 +233,8 @@ body {
 
 .titulo-parrafo {
   text-decoration-line: underline;
+  font-size: 3vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .img1-ej {
@@ -418,9 +427,12 @@ body {
   justify-content: space-around;
   font-family: "russo one", sans-serif;
   font-size: 3vw;
+  background-color: #78818e;
+  color: aliceblue;
 }
 
 .main-rutina {
+  background-color: #78818e;
   display: block;
 }
 .main-rutina img {
