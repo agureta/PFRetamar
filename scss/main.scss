@@ -24,9 +24,6 @@ justify-content: center;
     display: flex;
     justify-content: center;
     margin: 0 ;
-    h1 a :hover{
-        color: inherit;
-    }
 }
 
 
@@ -93,11 +90,11 @@ li a:hover{
 }
 
 .img1{
- width: 60%
+width: 60%
 }
 
 p{
-  font-size: 2vh ;
+font-size: 2vh ;
 }
 
 .footer-container{
@@ -149,7 +146,7 @@ ul li{
 }
     .footer-container{
         .redes{
-            width: 30%;   
+            width: 30%;
         & li{
             width: auto;
             height: auto;
@@ -220,7 +217,7 @@ body{
     }
     .footer-container
         .redes{
-            width: 80%;   
+            width: 80%;
         & li{
             width: auto;
             height: auto;
@@ -251,11 +248,11 @@ body{
 
 .img1-ej{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .img2-ej{
@@ -273,7 +270,7 @@ body{
     margin-right: auto;
     width: 50%;
     margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .img4-ej{
@@ -282,7 +279,7 @@ body{
     margin-right: auto;
     width: 50%;
     margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .img5-ej{
@@ -291,7 +288,7 @@ body{
     margin-right: auto;
     width: 50%;
     margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .img6-ej{
@@ -300,7 +297,7 @@ body{
     margin-right: auto;
     width: 50%;
     margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .img7-ej{
@@ -309,7 +306,7 @@ body{
     margin-right: auto;
     width: 50%;
     margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .img8-ej{
@@ -318,7 +315,7 @@ body{
     margin-right: auto;
     width: 50%;
     margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .img9-ej{
@@ -327,7 +324,7 @@ body{
     margin-right: auto;
     width: 50%;
     margin-top: 10px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .ejercicios-main{
@@ -368,7 +365,6 @@ body{
 .main-planes{
     display: grid;
     grid-template-columns: 1 70%;
-        
         & .plan1 {
         grid-column: 1;
         grid-row: 2;
