@@ -1,0 +1,17 @@
+.h2-rut{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'russo one', sans-serif;
+    font-size: 3vw;
+    background-color: #78818e;
+    color: aliceblue;
+   }
+
+.main-rutina{
+   background-color: #78818e;
+   display: block;
+   & img { display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 80%;}
+}

@@ -1,0 +1,38 @@
+.h2-planes{
+    display: flex;
+    justify-content: center;
+    font-family: 'russo one', sans-serif;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .h2-planes{
+       display: flex;
+       justify-content: center;
+       font-family: 'russo one', sans-serif;
+    }
+
+
+    .main-planes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        & .plan1{
+            grid-area: 1 / 1 / 2 / 2; 
+            font-family: 'russo one', sans-serif;
+            .img1-planes{
+                width: 40vh;
+                height: auto;
+            }
+        }
+        & .plan2{
+            grid-area: 1 / 2 / 2 / 3;
+            font-family: 'russo one', sans-serif;
+            .img2-planes{
+                width: 40vh;
+                height: auto;
+            }
+        }
+    }
+}
